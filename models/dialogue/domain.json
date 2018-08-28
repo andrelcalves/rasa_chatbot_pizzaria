@@ -1,0 +1,24 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_list_size",
+    "intent_list_tops",
+    "intent_order_pizza",
+    "intent_thankyou",
+    "entity_size",
+    "entity_tops",
+    "slot_size_0",
+    "slot_tops_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_say_greet",
+    "prev_say_list_tops",
+    "prev_say_list_sizes",
+    "prev_say_do_order",
+    "prev_dizer_despedida",
+    "prev_ask_size",
+    "prev_ask_tops",
+    "prev_confirm_order"
+  ]
+}

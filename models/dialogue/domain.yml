@@ -1,0 +1,62 @@
+%YAML 1.1
+---
+action_factory: null
+action_names:
+- say_greet
+- say_list_tops
+- say_list_sizes
+- say_do_order
+- dizer_despedida
+- ask_size
+- ask_tops
+- confirm_order
+actions:
+- say_greet
+- say_list_tops
+- say_list_sizes
+- say_do_order
+- dizer_despedida
+- ask_size
+- ask_tops
+- confirm_order
+config:
+  store_entities_as_slots: true
+entities:
+- size
+- tops
+intents:
+- greet:
+    use_entities: true
+- order_pizza:
+    use_entities: true
+- list_tops:
+    use_entities: true
+- list_size:
+    use_entities: true
+- thankyou:
+    use_entities: true
+slots:
+  size:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  tops:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  ask_size:
+  - text: Qual tamanho de pizza você deseja?
+  ask_tops:
+  - text: Qual sabor?
+  confirm_order:
+  - text: Posso confirmar seu pedido, pizza de {tops} tamanho {size}?
+  dizer_despedida:
+  - text: Tchau! fique bem!
+  say_do_order:
+  - text: Certo, pode fazer seu pedido.
+  say_greet:
+  - text: Oi! Bem vindo a Manolo's Pizza. Posso anotar seu pedido?
+  say_list_sizes:
+  - text: Temos pizza da pequena a família e um tamanho exclusivo família flintstones
+  say_list_tops:
+  - text: 'Temos diversos sabores: Calabresa, Frango, Atum, Bacon, Sardinha e muito
+      mais.'

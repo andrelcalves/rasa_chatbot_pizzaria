@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\Profissional\\Projetos\\Rasa_Pizzaria\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "D:\\Profissional\\Projetos\\Rasa_Pizzaria\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"

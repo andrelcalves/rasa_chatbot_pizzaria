@@ -1,0 +1,362 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Olá"
+      },
+      {
+        "intent": "greet",
+        "text": "Oi"
+      },
+      {
+        "intent": "greet",
+        "text": "Ea"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Bom dia"
+      },
+      {
+        "intent": "greet",
+        "text": "Boa tarde"
+      },
+      {
+        "intent": "greet",
+        "text": "Boa noite"
+      },
+      {
+        "intent": "order_pizza",
+        "text": "Gostaria de pedir uma pizza"
+      },
+      {
+        "intent": "order_pizza",
+        "text": "Eu quero uma pizza"
+      },
+      {
+        "intent": "order_pizza",
+        "text": "Estou querendo uma pizza"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "calabresa",
+            "entity": "tops"
+          },
+          {
+            "start": 35,
+            "end": 50,
+            "value": "tamanho família",
+            "entity": "size"
+          }
+        ],
+        "text": "Quero pedir uma pizza de calabresa tamanho família"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "média",
+            "entity": "size"
+          },
+          {
+            "start": 28,
+            "end": 47,
+            "value": "frango com catupiry",
+            "entity": "tops"
+          }
+        ],
+        "text": "Eu quero uma pizza média de frango com catupiry"
+      },
+      {
+        "intent": "order_pizza",
+        "text": "Quero pizza"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "pequena",
+            "entity": "size"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "atum",
+            "entity": "tops"
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "value": "toscana",
+            "entity": "tops"
+          }
+        ],
+        "text": "Me traz uma pizza pequena de atum e outra de toscana"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "média",
+            "entity": "size"
+          }
+        ],
+        "text": "Uma pizza média por favor"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 19,
+            "end": 38,
+            "value": "frango com catupiry",
+            "entity": "tops"
+          }
+        ],
+        "text": "Quero uma pizza de frango com catupiry"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "calabresa",
+            "entity": "tops"
+          },
+          {
+            "start": 37,
+            "end": 42,
+            "value": "medio",
+            "entity": "size"
+          }
+        ],
+        "text": "Quero uma pizza de calabresa tamanho medio"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "pequena",
+            "entity": "size"
+          }
+        ],
+        "text": "Gostaria de pedir uma pizza tamanho pequena"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "médio",
+            "entity": "size"
+          }
+        ],
+        "text": "Quero uma pizza tamanho médio"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "pequena",
+            "entity": "size"
+          }
+        ],
+        "text": "Gostaria de uma pizza tamanho pequena"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 40,
+            "end": 52,
+            "value": "dois sabores",
+            "entity": "qtd_tops"
+          }
+        ],
+        "text": "Gostaria de uma pizza [média] (size) de dois sabores"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 41,
+            "end": 53,
+            "value": "dois sabores",
+            "entity": "qtd_tops"
+          }
+        ],
+        "text": "Gostaria de uma pizza [grande] (size) de dois sabores"
+      },
+      {
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "dois sabores",
+            "entity": "qtd_tops"
+          }
+        ],
+        "text": "Quero uma pizza de dois sabores"
+      },
+      {
+        "intent": "list_tops",
+        "text": "Quais sabores de pizza tem?"
+      },
+      {
+        "intent": "list_tops",
+        "text": "Quais são os sabores das pizzas?"
+      },
+      {
+        "intent": "list_tops",
+        "text": "Tem pizza de que?"
+      },
+      {
+        "intent": "list_tops",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "atum",
+            "entity": "tops"
+          }
+        ],
+        "text": "Tem pizza de atum?"
+      },
+      {
+        "intent": "list_tops",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "calabresa",
+            "entity": "tops"
+          }
+        ],
+        "text": "Tem de calabresa?"
+      },
+      {
+        "intent": "list_tops",
+        "text": "Quais tipos e pizza estão disponiveis?"
+      },
+      {
+        "intent": "list_tops",
+        "text": "Quais os sabores que você tem?"
+      },
+      {
+        "intent": "list_tops",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "frango",
+            "entity": "tops"
+          }
+        ],
+        "text": "Vocês tem pizza de frango?"
+      },
+      {
+        "intent": "list_tops",
+        "text": "Quero uma lista de dois sabores"
+      },
+      {
+        "intent": "list_size",
+        "text": "Quais tamanhos de pizza tem?"
+      },
+      {
+        "intent": "list_size",
+        "text": "Quais são os tamanhos das pizzas?"
+      },
+      {
+        "intent": "list_size",
+        "text": "Tem pizza de que tamanho?"
+      },
+      {
+        "intent": "list_size",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "família",
+            "entity": "size"
+          }
+        ],
+        "text": "Tem pizza tamanho família?"
+      },
+      {
+        "intent": "list_size",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "média",
+            "entity": "size"
+          }
+        ],
+        "text": "Tem pizza média?"
+      },
+      {
+        "intent": "list_size",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "pequena",
+            "entity": "size"
+          }
+        ],
+        "text": "Vocês tem pizza pequena?"
+      },
+      {
+        "intent": "list_size",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "grande",
+            "entity": "size"
+          }
+        ],
+        "text": "Tem pizza grande?"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Obrigado!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Vlw"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Muito obrigado"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Valeu"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

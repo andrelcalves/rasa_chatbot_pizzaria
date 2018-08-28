@@ -1,0 +1,29 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "size",
+        "tops"
+      ]
+    },
+    "confirm_order": {
+      "slots": []
+    },
+    "say_do_order": {
+      "slots": []
+    },
+    "dizer_despedida": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.10.2",
+  "max_histories": [
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}
